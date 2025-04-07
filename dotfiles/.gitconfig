@@ -1,0 +1,14 @@
+[core]
+	autocrlf = false
+	symlinks = true
+[user]
+	useconfigonly = true
+[init]
+	defaultbranch = main
+[push]
+	default = current
+	autosetupremote = true
+[merge]
+	ff = false
+[pull]
+	ff = only
